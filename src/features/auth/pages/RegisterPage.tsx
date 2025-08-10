@@ -17,7 +17,7 @@ export default function RegisterPage() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const imgRegister =
-    "https://d1dwx6vsztg5ne.cloudfront.net/h2t-english/static%2FRegisterBG-removebg-preview.png";
+    "https://h2t-english.s3.us-east-1.amazonaws.com/h2t-english/static%2FRegisterBG-removebg-preview.png";
   const wavyBgPattern = isDarkMode ? "/wavy-bg-dark.svg" : "/wavy-bg-light.svg";
 
   return (

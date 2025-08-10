@@ -3,7 +3,7 @@ import axios, {
   InternalAxiosRequestConfig,
   AxiosResponse,
 } from "axios";
-const BASE_URL = "https://d1dwx6vsztg5ne.cloudfront.net/api";
+const BASE_URL = "/api";
 
 
 const apiClient = axios.create({

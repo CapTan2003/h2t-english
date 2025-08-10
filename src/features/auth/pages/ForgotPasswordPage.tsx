@@ -27,7 +27,7 @@ export default function ForgotPasswordPage() {
   };
 
   const imgForgotPassword =
-    "https://d1dwx6vsztg5ne.cloudfront.net/h2t-english/static%2FLoginBG-removebg-preview.png";
+    "https://h2t-english.s3.us-east-1.amazonaws.com/h2t-english/static%2FLoginBG-removebg-preview.png";
   const wavyBgPattern = isDarkMode ? "/wavy-bg-dark.svg" : "/wavy-bg-light.svg";
 
   return (
